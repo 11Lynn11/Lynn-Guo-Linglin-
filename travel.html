@@ -1,0 +1,166 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+.header {    
+  text-align: center; /* Centers the text */    
+}  
+.topnav {    
+  background-color: #333;    
+  overflow: hidden; /* Prevents floating elements from spilling out of the container */    
+}    
+    
+.topnav a {    
+  float: left; /* Floats all links to the left by default */    
+  display: block;    
+  color: #f2f2f2;    
+  text-align: center;    
+  padding: 14px 16px;    
+  text-decoration: none;    
+}    
+    
+.topnav a:hover {    
+  background-color: #ddd;    
+  color: black;    
+}    
+    
+.topnav a:last-child {    
+  float: right; /* Floats the last link to the right */    
+}    
+.row {    
+  display: flex; /* Uses Flexbox layout */    
+  justify-content: space-between; /* Adjusts the distribution of space between content as needed */    
+}    
+    
+.leftcolumn, .rightcolumn {    
+  flex: 1; /* Both occupy the remaining space, adjust as needed */    
+}    
+.leftcolumn {    
+  flex-grow: 2; /* Occupies more space */    
+}    
+    
+.rightcolumn {    
+  flex-grow: 1; /* Occupies less space */    
+}  
+    
+.card {    
+  margin: 10px; /* Adds some spacing to the cards */    
+  /* Additional card styles */    
+}  
+.footer {    
+  /* Sets the background color */    
+  background-color: #333;    
+      
+  /* Sets the text color */    
+  color: white;    
+      
+  /* Adds padding to create space around the footer content */    
+  padding: 20px;    
+      
+  /* Sets the font size */    
+  font-size: 14px;    
+      
+  /* Sets the text alignment */    
+  text-align: center;    
+      
+  /* Adds a border if needed */    
+  border-top: 1px solid #555;    
+}    
+    
+.footer h2 {     
+  margin: 0; /* Removes the default margin from the heading */    
+  padding: 0; /* Removes the default padding from the heading */    
+  font-size: 15px; /* Sets the heading font size */    
+}    
+    
+.footer p {     
+  margin: 5px 0; /* Sets the top and bottom margin for paragraphs */    
+}  
+.fakeimg {    
+  background-color: #cacaca; /* Replace with your desired color */     
+  height: 500px; /* Or any other desired height */  
+  border: 1px solid #ddd; /* Optional: Adds a border */    
+  margin: 10px 0; /* Optional: Adds top and bottom margin */    
+  overflow: hidden; /* Ensures content doesn't spill out of the container */    
+}  
+.card {    
+  background-color: white; /* Adds a white background */    
+  border: 1px solid #ddd; /* Optional: Adds a border to the card for visual enhancement */    
+  padding: 10px; /* Optional: Adds padding to the card content, keeping text and images at a distance from the edges */    
+  margin-bottom: 10px; /* Optional: Adds some spacing between cards */    
+}  
+body {    
+  background-color: #f0f0f0; /* Sets the background color to a light gray */    
+  margin: 0; /* Removes the default body outer margin */    
+  padding: 0; /* Removes the default body inner padding */    
+  font-family: Arial, sans-serif; /* Sets the font family for the entire body */    
+}  
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Travel</h1>
+  <p>Resize the browser window to see the effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="project.html">Project</a>
+  <a href="travel.html">Travel</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Enchantment Tour: Explore the unknown wonders of the world </h2>
+      <h5>Take a deep dive into our featured events and unique experiences to bring you moments you've never seen before, March 22, 2024</h5>
+      <div class="fakeimg" style="height:auto;">Image 
+      <img src="home.jpg" alt="Description of image" style="width:100%; height:auto;"> 
+      </div>
+      <p>In this charming journey, you will travel through the tunnel of time and space, and feel the integration and collision of different cultures. We have carefully planned a series of wonderful activities, so that you can explore the unknown world in a relaxed and pleasant atmosphere, enjoy the wonders of nature, and feel the profound and profound humanity.</p>
+      <p>  </p>
+    </div>
+    <div class="card">
+      <h2>Immensity: Exploring the mysteries and charms of the sea</h2>
+      <h5>Dive into the deep blue world, feel the vastness and depth of the sea, unlock the mystery of the ocean, and enjoy the infinite charm of nature, Sep 2, 2017</h5>
+      <div class="fakeimg" style=" height:auto; ">Image
+      <img src="home2.jpg" alt="Description of image" style="width:100%; height:auto;">
+    </div>
+      <p>Uncover the mystery of the ocean, swim in the magnificent blue scroll, feel the depth and vastness of the sea, appreciate the wonderful diversity of Marine life, and experience the passion and excitement of sailing adventure.</p>
+      <p></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:auto;">Image<img src="12.jpg" alt="Description of image" style="width:100%; height:auto;"> 
+    </div>
+      <p>Hi, my name is Lynn.  I love to challenge myself and pursue continuous learning and growth.  I love to communicate with people, and I am good at listening to other people's ideas and working with them to achieve common goals.  </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p>
+        <img src="3.jpg" alt="Description of image" style="width:100%; height: 500px;">
+      </div>
+      <div class="fakeimg"><p>Image</p>
+        <img src="4.jpg" alt="Description of image" style="width:100%; height:500px;">
+      </div>
+      <div class="fakeimg"><p>Image</p>
+        <img src="5.jpg" alt="Description of image" style="width:100%; height:500px;">
+      </div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Whether you're an adventurer looking for excitement or a traveler looking to relax, we'll bring you a unique experience like never before. Come and join us, follow our footsteps and start this magical journey together!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
